@@ -1,0 +1,209 @@
+body{
+  background: white;
+  margin: 0;
+  overflow-x: hidden;
+  background-image: url("https://i.pinimg.com/originals/de/f4/73/def473f3b4380d977d23ac2502cb1d77.jpg"); 
+}
+main{
+  background-color: rgba(0, 0,0, 0.5);
+  position: absolute;
+  width: 100%;
+}
+
+.container {
+  padding: 20px;
+}
+
+.list-container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto ;
+  grid-gap: 20px;
+  object-fit: fill;
+  padding: 0;
+  margin: 0;
+}
+
+#botao{
+  width: 150px;
+  height: 30px;
+  margin-left: 25px;
+  margin-top: 20px ;
+  margin-bottom: 0px;
+  border-color: black;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 300px;
+  position: relative;
+  background: black;
+  object-fit: fill;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition-duration: 1s;    
+  background-color: red;
+}
+
+.status{
+  padding: 2px 16px;
+}
+
+div.card > img{
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+div.status > h4{
+  font-family: 'Anton' , sans-serif;
+  color: white;
+}
+
+div.status > p{
+  font-family: 'Coming Soon', cursive;
+  color: white;
+}
+
+div.status{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#divBusca{
+  align-self: center;
+  padding-right: 10px;
+}
+
+#campobusca{
+  background:transparent;
+  border-bottom-color:gray;
+  width: 200px;
+  height: 20px;
+  color: white;
+}
+
+header{
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header> a > img{
+  width: 140px;
+  height: 100%;
+  padding-left: 10px;
+}
+
+nav{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+@media only screen and (max-width: 1125px){
+  nav{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  nav{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 100vw;
+  }
+
+  nav > a {
+    margin: 4px;
+  }
+}
+
+a{
+  text-decoration:transparent;
+  color: white;
+  align-self: center;
+  font-family: 'Anton' , sans-serif;
+}
+
+a:hover{
+  transition-delay: 0.1s;
+  opacity: 0.8;
+  color: red;
+}
+
+ul{
+  color:transparent;
+}
+
+ul > li{
+  justify-self: center;
+  width: 100%;
+  max-width: 200px;
+}
+
+@media only screen and (max-width: 1125px) {
+    header{
+      flex-direction: column;
+      height: fit-content;
+      min-width: 100vw;
+    }   
+    
+    header> img{
+      width: auto;
+      height: 60px;
+      padding-top: 10px;
+    }
+
+    .list-container {
+      grid-template-columns: 1fr 1fr 1fr; 
+      grid-template-rows: auto;
+    }
+
+    #divBusca{
+      padding: 10px;
+    }
+
+    .card{
+      max-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+  .list-container {
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .list-container {
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto;
+    min-width: 200px; 
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .list-container {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;
+    min-width: 200px; 
+  }
+}

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Marvel</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="https://www.marvel.com/"><img src="https://cdn.worldvectorlogo.com/logos/marvel-logo.svg" ></a>
+        <nav><a href="https://www.marvel.com/watch">VIDEOS</a> 
+            <a href="https://www.marvel.com/characters">PERSONAGENS</a> 
+            <a href="https://www.marvel.com/comics?&options%5Boffset%5D=0&totalcount=12">QUADRINHOS</a> 
+            <a href="https://www.marvel.com/movies">FILMES</a> 
+            <a href="https://www.marvel.com/tv-shows">SÉRIES</a> 
+            <a href="https://www.marvel.com/games">JOGOS</a> 
+            <a href="https://www.marvel.com/articles">NOTÍCIAS</a> 
+        </nav>
+        <div id="divBusca">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar"
+                title="Type in a name">
+            
+            <!-- <input type="button" value="Buscar"> -->
+        </div>
+    </header>
+
+
+
+    <main>
+        <!-- <input type=button id="botao" onclick="sortListDir()" value="Decrescente"/> -->
+        <div class="container">
+            <ul id="myUL" class="list-container">
+                <li><a href="#">
+                        <div class="card">
+                            <img
+                                src="https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2019/06/legiao_pUcCGI0Xl_YeS51iqnyuMdbaNs3kErm82t4HjVO9J7.jpg.jpeg">
+                            <div class="status">
+                                <h4>Blade</h4>
+                                <p>Eric Brooks</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+
+
+
+                <li><a href="#">
+                        <div class="card">
+                            <img
+                                src="https://www.einerd.com.br/wp-content/uploads/2019/02/capit%C3%A3o-am%C3%A9rica-hq-890x504.jpg">
+                            <div class="divisor"></div>
+                            <div class="status">
+                                <h4>Capitão América</h4>
+                                <p>Steve Rogers</p>
+                            </div>
+                        </div>
+                </li></a></li>
+
+
+                <li><a href="#">
+                        <div class="card">
+                            <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/cyclops_head.jpg">
+                            <div class="status">
+                                <h4>Ciclope</h4>
+                                <p>Scott Summers</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                <li><a href="#">
+                        <div class="card">
+                            <img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2016/07/vitrine-12.jpg">
+
+                            <div class="status">
+                                <h4>Deadpool</h4>
+                                <p>Wade Wylson</p>
+                            </div>
+                        </div>
+
+                    </a></li>
+
+              
+
+                <li><a href="#">
+                        <div class="card">
+                            <img
+                                src="https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2019/02/legiao_eLu4ohK7iJ6_qlaAMzISBR20dmHtTpjOYUEkGrZPf3.png.jpeg">
+                            <div class="divisor"></div>
+                            <div class="status">
+                                <h4>Gavião Arqueiro</h4>
+                                <p>Clint Barton</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                <li><a href="#">
+                        <div class="card">
+                            <img
+                                src="https://wimg.jakpost.travel/wimages/sm/19-198768_comics-wallpaper-spider-man-homem-aranha-marvel-hq.jpg">
+                            <div class="status">
+                                <h4>Homem Aranha</h4>
+                                <p>Peter Benjamin Parker</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                <li><a href="#">
+                        <div class="card">
+                            <img src="https://s.aficionados.com.br/imagens/homem-de-ferro_f.jpg">
+                            <div class="status">
+                                <h4>Homem de Ferro</h4>
+                                <p>Anthony Edward "Tony" Stark</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                <li><a href="#">
+                        <div class="card">
+                            <img src="https://litherarium.files.wordpress.com/2016/07/homem-formiga-quadrinhos.png">
+
+                            <div class="status">
+                                <h4>Homem Formiga</h4>
+                                <p>Hank Pym</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                <li><a href="#">
+                        <div class="card">
+                            <img src="https://psxbrasil.com.br/wp-content/uploads/2020/02/hulk-hq.jpg">
+                            <div class="divisor"></div>
+                            <div class="status">
+                                <h4>Hulk</h4>
+                                <p>Bruce Banner</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                <li><a href="#">
+                        <div class="card">
+                            <img src="https://nerdbreak.com.br/wp-content/uploads/2018/01/pantera-negra-tops-capa.jpg">
+                            <div class="divisor"></div>
+                            <div class="status">
+                                <h4>Pantera Negra</h4>
+                                <p>T'Challa</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                <li><a href="#">
+                        <div class="card">
+                            <img src="https://referencianerd.com/wp-content/uploads/2019/12/capa.jpg">
+                            <div class="divisor"></div>
+                            <div class="status">
+                                <h4>Thor</h4>
+                                <p>Thor Odinson "Donald Blake"</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                <li><a href="#">
+                        <div class="card">
+                            <img
+                                src="https://www.aliancanerd.com.br/conteudo/wp-content/uploads/2019/11/Captura-de-Tela-84.png">
+                            <div class="divisor"></div>
+                            <div class="status">
+                                <h4>Viúva Negra</h4>
+                                <p>Natasha Romanov</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://3.bp.blogspot.com/-XijqKMXlj5A/XJEMRg7fj-I/AAAAAAAAA4s/IOjM2OwLpiQcnyiiqngeg1PYMVpr8DYSgCKgBGAs/w914-h514-p-k-no-nu/wolverine-bullet-wounds-healing-uhdpaper.com-4K-5.jpg">
+                            <div class="status">
+                                <h4>Wolverine</h4>
+                                <p>James Howlett/Logan</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://images7.alphacoders.com/889/thumb-1920-889704.jpg">
+                            <div class="status">
+                                <h4>Magneto</h4>
+                                <p>Max Eisenhadt</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://66.media.tumblr.com/218a8dcd3d2b4c4d4c9a33834c8a691a/tumblr_piyjrp1SJK1w9ar8zo3_1280.jpg">
+                            <div class="status">
+                                <h4>Jean Grey "Fênix"</h4>
+                                <p>Jean Elaine Grey</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://lh3.googleusercontent.com/proxy/Q7UNAVTMANFqMNWRpee_-1dobhFZnNRxQcOLGP3ELLpFBAUwbsmkizZUWU77ENpv63MS5_YhlncAKlKX24Ze5hJsAas4AjYhbe-3uhyBtjF3E9R2Mqj5BXjUZrVmhjooHil8f7_0UTc6LRrxsRKnu3A">
+                            <div class="status">
+                                <h4>Homem gelo</h4>
+                                <p>Robert Louis "Bobby" Drake</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://www.wallpaperup.com/uploads/wallpapers/2013/08/24/138228/1aa037e8eec3ee02775a236f637f49eb-700.jpg">
+                            <div class="status">
+                                <h4>Demolidor</h4>
+                                <p>Matthew Michael "Matt" Murdock</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://ladonegrodaforca.com.br/data/publicacao/303.jpg">
+                            <div class="status">
+                                <h4>Bishop</h4>
+                                <p>Lucas "Luke" Bishop</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://criticalhits.com.br/wp-content/uploads/2019/09/Vampira-como-Super-Saiyajin.jpg">
+                            <div class="status">
+                                <h4>Vampíra</h4>
+                                <p>Anna Marie Raven LeBeau</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://static.quizur.com/i/b/5aa6dac0ca1ce5.15754167Oon31NB.jpg">
+                            <div class="status">
+                                <h4>Homem Elástico</h4>
+                                <p>Reed Richards</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://pm1.narvii.com/6498/5769987d7a203cbb3266c506e6756372cfc8c0b9_00.jpg">
+                            <div class="status">
+                                <h4>Tocha Humana</h4>
+                                <p>"Johnny" Storm</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://www.sideshow.com/wp/wp-content/uploads/2020/03/Sue-Storm.jpg">
+                            <div class="status">
+                                <h4>Mulher invisível</h4>
+                                <p>Susan "Sue" Storm-Richards</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://pm1.narvii.com/7034/461f3c7d8ecbc41be67a9dd9b4a79d3fcaa75231r1-750-511v2_hq.jpg">
+                            <div class="status">
+                                <h4>Coisa</h4>
+                                <p>Benjamin Jacob "Ben" Grimm</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://minasnerds.com.br/wp-content/uploads/2019/02/1280x720-1971499-captain-marvel__8.jpg">
+                            <div class="status">
+                                <h4>Capitã Marvel</h4>
+                                <p>Carol Susan Jane Danvers</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://br.web.img3.acsta.net/r_640_360/newsv7/19/09/13/00/20/4102792.jpg">
+                            <div class="status">
+                                <h4>She Hulk</h4>
+                                <p>Jennifer Susan Walters</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://universoxmen.com.br/wp-content/uploads/2019/03/doutor-destino-doom.png">
+                            <div class="status">
+                                <h4>Dr. Destino </h4>
+                                <p>Victor von Doom</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://www.comboinfinito.com.br/principal/wp-content/uploads/2019/08/Galactus.jpg">
+                            <div class="status">
+                                <h4>Galactus</h4>
+                                <p>Galan</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2020/06/legiao_8Mmc2YxZ9NdT.jpg.jpeg">
+                            <div class="status">
+                                <h4>Duende Verde</h4>
+                                <p>Norman Virgil Osborn</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://s.aficionados.com.br/imagens/fisk1.jpg">
+                            <div class="status">
+                                <h4>Rei do Crime</h4>
+                                <p>Wilson Grant Fisk</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#">
+                        <div class="card">
+                            <img src="https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2020/06/legiao_eUkJEICaMson.png.jpeg">
+                            <div class="status">
+                                <h4>Hércules</h4>
+                                <p>Hércules</p>
+                            </div>
+                        </div>
+                    </a></li>
+
+
+
+            </ul>
+        </div>
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
